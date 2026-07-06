@@ -1,4 +1,4 @@
 #board { display: grid; grid-template-columns: repeat(8, 48px); }
-.cell { width: 48px; height: 48px; display: grid; place-items: center; font-size: 28px; }
+.cell { width: 48px; height: 48px; display: grid; place-items: center; font-size: 28px; margin: 0}
 .light { background: #f0d9b5; }
 .dark  { background: #b58863; }
