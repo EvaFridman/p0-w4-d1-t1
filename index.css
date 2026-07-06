@@ -2,3 +2,38 @@
 .cell { width: 48px; height: 48px; display: grid; place-items: center; font-size: 28px; margin: 0}
 .light { background: #f0d9b5; }
 .dark  { background: #b58863; }
+
+.chess-wrapper {
+    display: grid;
+    grid-template-columns: 30px auto;
+    width: max-content;
+    margin: 20px auto;
+}
+
+.letters-row {
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+}
+
+.letters-row span {
+    width: 48px;
+    text-align: center;
+}
+
+.numbers-col {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.numbers-col span {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
